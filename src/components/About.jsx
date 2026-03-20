@@ -14,8 +14,7 @@ export default function About() {
         <p style={{ maxWidth: "700px", marginTop: "1rem", textAlign: "center", margin: "1rem auto" }}>
           My main focus is building real-world applications using technologies
           like ASP.NET Core, React, SQL, and REST APIs. I enjoy working on systems
-          that involve business logic, data management, and integration between
-          different services.
+          that involve business logic and data management.
         </p>
       </AnimatedSection>
     </section>

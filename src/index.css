@@ -22,6 +22,15 @@ section {
   margin: auto;
 }
 
+.hero-text {
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 form {
   width: 100%;
   max-width: 480px;
@@ -78,6 +87,22 @@ button:hover {
 .name{
   padding-left: 60px;
   font-size: 29px;
+}
+
+.desktop-break {
+  display: block;
+}
+
+/* Mobile: remove the forced break */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+  .desktop-break {
+    display: inline;
+  }
 }
 
 /* Responsive helpers */

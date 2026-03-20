@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <AnimatedSection>
-        <h2 style={{ textAlign: "center" }}>Projects</h2>
+        <h2 style={{ textAlign: "center", fontSize: 29 }}>Projects</h2>
 
         <div style={grid}>
           {projects.map(project => (

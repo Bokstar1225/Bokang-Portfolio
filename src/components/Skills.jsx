@@ -28,7 +28,7 @@ export default function Skills() {
   return (
     <section id="skills">
       <AnimatedSection>
-        <h2 style={{ textAlign: "center" }}>Skills</h2>
+        <h1 style={{ textAlign: "center", fontSize: 29 }}>Skills</h1>
 
         <div style={grid}>
           {skills.map(skill => (

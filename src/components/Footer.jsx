@@ -9,7 +9,7 @@ export default function Footer() {
 const footer = {
   textAlign: "center",
   padding: "2rem 1rem",
-  background: "#020617",
+  background: "#0f172a",
   marginTop: "4rem",
   color: "#94a3b8"
 };

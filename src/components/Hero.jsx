@@ -8,8 +8,9 @@ export default function Hero() {
           Full-Stack Developer
         </h1>
 
-        <p style={{ marginTop: "1rem", textAlign: "center" }}>
-          I build secure, scalable web applications with a strong backend <br></br> focus.
+        <p className="hero-text">
+          I build scalable, secure web applications with a strong backend
+           <span className="desktop-break"></span> focus.
           Experienced in ASP.NET Core, React, SQL, and cloud-ready architectures.
         </p>
 
@@ -26,12 +27,14 @@ const primaryBtn = {
   padding: "0.75rem 1.6rem",
   background: "#38bdf8",
   color: "#020617",
-  borderRadius: "6px"
+  borderRadius: "6px",
 };
 
 const outlineBtn = {
   ...primaryBtn,
   background: "transparent",
   border: "1px solid #38bdf8",
-  color: "#38bdf8"
+  color: "#38bdf8",
+  width: "130px",
+  textAlign: "center"
 };
