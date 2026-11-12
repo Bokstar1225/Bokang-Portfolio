@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" style={{marginTop: 265}}>
       <AnimatedSection>
-        <h2 style={{textAlign: "center", fontSize: 29}}>About Me</h2>
+        <h2 style={{textAlign: "center", fontSize: 29}} className="about-title">About Me</h2>
         <p style={{ maxWidth: "700px", marginTop: "1rem", textAlign: "center", margin: "1rem auto" }}>
           I’m a Software Developer with a strong interest in backend systems,
           FinTech-style applications, and scalable architectures.

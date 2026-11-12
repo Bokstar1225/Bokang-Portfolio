@@ -1,8 +1,8 @@
 export const projects = [
   {
-    title: "E-Commerce Store",
-    description: "ASP.NET Core MVC app with admin panel and SQL Server.",
-    tech: ["ASP.NET Core", "SQL Server", "Bootstrap"],
+    title: "E-Commerce API",
+    description: "ASP.NET Core Web API with SQL Server.",
+    tech: ["ASP.NET Core", "SQL Server", "Swagger", "REST APIs"],
     github: "https://github.com/yourusername/ecommerce",
     live: ""
   },
@@ -18,6 +18,13 @@ export const projects = [
     description: "A management system to manage car rentals.",
     tech: ["PHP", "JavaScript", "MySQL"],
     github: "https://github.com/Bokstar1225/Car-Rental-Management-System",
+    live: ""
+  },
+  {
+    title: "NPO Web and Mobile App",
+    description: "A full stack application for an NPO client, focusing on STEM subjects within schools",
+    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Kotlin"],
+    github: "https://github.com/Bokstar1225/The-PinkForum-Website",
     live: ""
   }
 ];

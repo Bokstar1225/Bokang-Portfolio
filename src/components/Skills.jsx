@@ -1,5 +1,5 @@
 import AnimatedSection from "./AnimatedSection";
-import { FaCode, FaServer, FaDatabase, FaTools } from "react-icons/fa";
+import { FaCode, FaServer, FaDatabase, FaTools, FaMobile } from "react-icons/fa";
 
 const skills = [
   {
@@ -21,6 +21,11 @@ const skills = [
     title: "Tools",
     icon: <FaTools />,
     items: ["Git", "GitHub", "Azure"]
+  },
+  {
+    title: "Mobile",
+    icon: <FaMobile />,
+    items: ["Kotlin", "Android Studio", "Gradle"]
   }
 ];
 

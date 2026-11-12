@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section style={{marginTop: 130}} id="hero">
       <AnimatedSection>
-        <h1 style={{ fontSize: "clamp(2.2rem, 5vw, 3.8rem)", textAlign: "center" }}>
+        <h1 style={{ fontSize: "clamp(2.2rem, 5vw, 3.8rem)", textAlign: "center" }} className="hero-title">
           Full-Stack Developer
         </h1>
 
@@ -35,6 +35,6 @@ const outlineBtn = {
   background: "transparent",
   border: "1px solid #38bdf8",
   color: "#38bdf8",
-  width: "130px",
+  width: "135px",
   textAlign: "center"
 };
