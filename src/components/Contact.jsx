@@ -26,7 +26,9 @@ export default function Contact() {
   return (
     <section id="contact" style={{marginTop: "44px"}}>
       <AnimatedSection>
-        <h2 style={{textAlign: "center", fontSize: 29}}>Contact Me</h2>
+        <h2 style={{textAlign: "center", fontSize: 29}} className="contact-title">
+          Contact Me
+        </h2>
 
         <p style={{ margin: "0.5rem 0 2rem", textAlign: "center" }}>
           Interested in working together or have a question?<br></br>

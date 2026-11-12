@@ -103,7 +103,7 @@ const styles = {
   links: {
     display: "flex",
     gap: "1.5rem",
-    fontSize: 18,
+    fontSize: 20,
     paddingRight: 60
   },
 
@@ -137,7 +137,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     gap: "2rem",
-    fontSize: "2rem",
+    fontSize: "1.5rem",
     textAlign: "center"
   }
 };

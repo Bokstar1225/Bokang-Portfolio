@@ -2,20 +2,28 @@ import AnimatedSection from "./AnimatedSection";
 
 export default function About() {
   return (
-    <section id="about" style={{marginTop: 265}}>
+    <section id="about" className="about-section">
       <AnimatedSection>
-        <h2 style={{textAlign: "center", fontSize: 29}} className="about-title">About Me</h2>
-        <p style={{ maxWidth: "700px", marginTop: "1rem", textAlign: "center", margin: "1rem auto" }}>
-          I’m a Software Developer with a strong interest in backend systems,
-          FinTech-style applications, and scalable architectures.
-          I enjoy turning complex requirements into clean, maintainable solutions.
-        </p>
+        <div className="about-heading">
+          <h2 className="about-title">About Me</h2>
+        </div>
 
-        <p style={{ maxWidth: "700px", marginTop: "1rem", textAlign: "center", margin: "1rem auto" }}>
-          My main focus is building real-world applications using technologies
-          like ASP.NET Core, React, SQL, and REST APIs. I enjoy working on systems
-          that involve business logic and data management.
-        </p>
+        <div className="about-content">
+          <div className="about-copy">
+            <p>
+              I’m a full-stack developer who enjoys solving practical problems
+              with clean, dependable software. I’m especially interested in
+              backend development, FinTech-style applications, and the systems
+              that help products grow.
+            </p>
+            <p>
+              I work with ASP.NET Core, React, SQL, and REST APIs to build
+              applications where thoughtful business logic, well-structured
+              data, and a clear user experience fit together. I value solutions
+              that are maintainable today and ready to evolve tomorrow.
+            </p>
+          </div>
+        </div>
       </AnimatedSection>
     </section>
   );
