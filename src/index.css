@@ -166,11 +166,11 @@ button:hover {
 /* Mobile: remove the forced break */
 @media (max-width: 768px) {
   #hero {
-    margin-top: 2rem;
+    margin-top: 70px;
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
   
   .hero-text {
@@ -178,8 +178,20 @@ button:hover {
     padding: 0 1rem;
   }
 
-  .about-title, .skills-title, .projects-title, .contact-title {
-    font-size: 1.8rem;
+  .about-title{
+    font-size: 1.25rem;
+  }
+
+  .skills-title{
+    font-size: 1.25rem;
+  }
+
+  .projects-title{
+    font-size: 1.25rem;
+  }
+
+  .contact-title{
+    font-size: 1.25rem;
   }
 
   .desktop-break {
@@ -194,14 +206,26 @@ button:hover {
   }
 
   #hero {
-    margin-top: 2rem;
+    margin-top: 70px;
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
-  .about-title, .skills-title, .projects-title, .contact-title {
+  .about-title{
+    font-size: 1.25rem;
+  }
+
+  .skills-title{
+    font-size: 1.25rem;
+  }
+
+  .projects-title{
+    font-size: 1.25rem;
+  }
+
+  .contact-title{
     font-size: 1.25rem;
   }
 
@@ -227,7 +251,7 @@ button:hover {
 
   .name {
     padding-left: 0px;
-    font-size: 23px;
+    font-size: 24px;
   }
 
 }
